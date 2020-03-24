@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:background="#ff0000"
+        android:text="@string/strBtn1"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="#00FF00"
+        android:text="@string/strBtn2"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="#EE82EE"
+        android:text="@string/strBtn3"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="#E0FFFF"
+        android:text="@string/strBtn4"></Button>
+
+</LinearLayout>
