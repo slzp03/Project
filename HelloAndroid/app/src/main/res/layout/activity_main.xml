@@ -31,5 +31,5 @@
         android:id="@+id/button4"
         android:background="#E0FFFF"
         android:text="@string/strBtn4"></Button>
-
+ // LinearLayout에 버튼 4개 생성 및 버튼에 문자와 색상, id 지정
 </LinearLayout>

@@ -4,4 +4,5 @@
     <string name="strBtn2">911 응급전화 걸기</string>
     <string name="strBtn3">갤러리 열기</string>
     <string name="strBtn4">끝내기</string>
+    <string name="app_th">FourButton</string>
 </resources>
