@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_gravity="right|top"
+
+        android:layout_margin="16sp"
+        android:background="#00404040"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:tint="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/logo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="RUN"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="100sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:text="FREE RUN"
+            android:textColor="#FF0000"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:text="RECOMMANDED RUN"
+            android:textColor="#FF0000"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:text="PLAY MUSIC"
+            android:textColor="#FF0000"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

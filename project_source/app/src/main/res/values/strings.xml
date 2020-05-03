@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">runapp</string>
+    <string name="btn_next" />
+    <string name="btn_back" />
+</resources>
