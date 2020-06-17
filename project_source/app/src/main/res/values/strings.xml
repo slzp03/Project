@@ -2,4 +2,8 @@
     <string name="app_name">runapp</string>
     <string name="btn_next" />
     <string name="btn_back" />
+    <string name="free_run">FREE RUN</string>
+    <string name="play_music">PLAY MUSIC</string>
+    <string name="recommanded_run">RECOMMANDED RUN</string>
+    <string name="run">RUN</string>
 </resources>

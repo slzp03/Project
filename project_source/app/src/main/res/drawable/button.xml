@@ -7,10 +7,10 @@
         android:bottom="2dp"
         >
         <shape android:shape="rectangle">
-            <stroke android:width="4dp" android:color="#FF0000" />
+            <stroke android:width="4dp" android:color="@android:color/transparent"/>
             <solid
                 android:width="4dp"
-                android:color="#TRANSPARENT"
+                android:color="@android:color/transparent"
                 />
             <corners android:radius="8dp"/>
         </shape>

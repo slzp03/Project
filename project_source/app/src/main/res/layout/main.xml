@@ -29,41 +29,41 @@
             android:layout_margin="16sp"
             android:layout_weight="1"
             android:fontFamily="sans-serif"
-            android:text="RUN"
+            android:text="@string/run"
             android:textAlignment="center"
             android:textColor="#FF0000"
             android:textSize="100sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/freeRunBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8sp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:text="FREE RUN"
+            android:text="@string/free_run"
             android:textColor="#FF0000"
             android:textSize="36sp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/recommendedRunBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8sp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:text="RECOMMANDED RUN"
+            android:text="@string/recommanded_run"
             android:textColor="#FF0000"
             android:textSize="36sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/playMusicBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8sp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:text="PLAY MUSIC"
+            android:text="@string/play_music"
             android:textColor="#FF0000"
             android:textSize="36sp" />
 
